@@ -24,7 +24,7 @@
         <!-- Миниторинг JavaMelody -->
         <!--<dependency>-->
             <!--<groupId>net.bull.javamelody</groupId>-->
-            <!--<artifactId>javamelody-core</artifactId>-->
+            <!--<artifactId>javamelody-graybox</artifactId>-->
             <!--<version>1.51.0</version>-->
         <!--</dependency>-->
     </dependencies>
@@ -54,6 +54,7 @@
 
     <modules>
         <module>core</module>
+        <module>web</module>
     </modules>
 
 </project>
