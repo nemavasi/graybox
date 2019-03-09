@@ -8,7 +8,7 @@ import org.takes.facets.fork.TkFork;
 public class App {
     public static void main(final String... args) throws Exception {
         new FtBasic(
-                new TkFork(new FkRegex("/", "hello, world!")), 8080
+                new TkFork(new FkRegex("/", "hello, world!")), 8222
         ).start(Exit.NEVER);
     }
 }

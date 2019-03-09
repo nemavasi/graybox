@@ -16,6 +16,8 @@
 
     <properties>
         <takes.version>1.16</takes.version>
+        <javamelody.version>1.76.0</javamelody.version>
+        <javax.servlet.version>3.1.0</javax.servlet.version>
     </properties>
 
     <dependencies>
@@ -24,6 +26,15 @@
             <artifactId>takes</artifactId>
             <version>${takes.version}</version>
         </dependency>
+
+
+        <!-- Миниторинг JavaMelody -->
+        <!--<dependency>-->
+            <!--<groupId>net.bull.javamelody</groupId>-->
+            <!--<artifactId>javamelody-core</artifactId>-->
+            <!--<version>${javamelody.version}</version>-->
+        <!--</dependency>-->
+
     </dependencies>
     <!--<profiles>-->
         <!--<profile>-->
@@ -55,5 +66,7 @@
             <!--</build>-->
         <!--</profile>-->
     <!--</profiles>-->
+
+
 
 </project>
